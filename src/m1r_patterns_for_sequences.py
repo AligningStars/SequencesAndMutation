@@ -13,11 +13,11 @@ Of course, these are not the only patterns, and some problems require
 combining these patterns, but this is a good base upon which to build.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Cheryl He.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. SKIM the program below and RUN it.
+# DONE: 2. SKIM the program below and RUN it.
 #
 #   Then look more closely at the CODE for:
 #     -- find_example1
@@ -36,7 +36,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 #     -- TWO-PLACES-AT-ONCE, and
 #     -- TWO-SEQUENCES-IN-PARALLEL
 #   then:
-#      change the above TODO to DONE.
+#      change the above TODOs to DONE.
 # ----------------------------------------------------------------------
 
 import math
@@ -132,7 +132,7 @@ def main():
 # ----------------------------------------------------------------------
 # The   BEGINNING-TO-END   pattern:
 # ----------------------------------------------------------------------
-def beginning_to_end(sequence):
+def beginning_to_end(sequence):     # DONE
     """
     Demonstrates iterating (looping) through a sequence in the most
     typical way:  from BEGINNING TO END.
@@ -159,7 +159,7 @@ def beginning_to_end(sequence):
 # ----------------------------------------------------------------------
 # The   OTHER-RANGES   pattern:
 # ----------------------------------------------------------------------
-def other_ranges(sequence):
+def other_ranges(sequence):     # DONE
     """
     Demonstrates iterating (looping) through a sequence in a pattern
     OTHER than from beginning to end.
@@ -238,7 +238,7 @@ def other_ranges(sequence):
 # ----------------------------------------------------------------------
 # The   FIND   pattern, in its several variations:
 # ----------------------------------------------------------------------
-def find(sequence):
+def find(sequence):        # DONE
     """
     Demonstrates FINDING an item in a sequence.  Its forms include:
       1. Finding WHETHER a given item is in the given sequence.
@@ -377,7 +377,7 @@ def max_min(sequence):
     print('Its cosine is', math.cos(sequence[answer3]))
 
 
-def min_index(sequence):
+def min_index(sequence):    # DONE
     """
     Returns the index of the smallest item in the given sequence.
 
@@ -394,7 +394,7 @@ def min_index(sequence):
     return index_of_min
 
 
-def min_item(sequence):
+def min_item(sequence):     # DONE
     """
     Returns the smallest item in the given sequence.
 
@@ -408,7 +408,7 @@ def min_item(sequence):
     return sequence[index_of_min]
 
 
-def min_cosine(sequence):
+def min_cosine(sequence):       # DONE
     """
     Returns the index of the item in the sequence whose cosine
     is smallest.
@@ -430,7 +430,7 @@ def min_cosine(sequence):
 # ----------------------------------------------------------------------
 # The   TWO-PLACES-AT-ONCE   pattern:
 # ----------------------------------------------------------------------
-def two_places_at_once(sequence):
+def two_places_at_once(sequence):       # DONE
     """
     Demonstrates iterating (looping) through a sequence,
     but examining TWO places in the sequence on the SAME ITERATION.
@@ -465,7 +465,7 @@ def two_places_at_once(sequence):
 # ----------------------------------------------------------------------
 # The   TWO-SEQUENCES-IN-PARALLEL   pattern:
 # ----------------------------------------------------------------------
-def two_sequences_in_parallel(sequence1, sequence2):
+def two_sequences_in_parallel(sequence1, sequence2):    # DONE
     """
     Demonstrates iterating (looping) through TWO sequences in PARALLEL.
 
@@ -492,6 +492,7 @@ def two_sequences_in_parallel(sequence1, sequence2):
             count = count + 1
 
     return count
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
